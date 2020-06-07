@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./script.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"> 
+    <title>budgety</title>
+</head>
+<body>
+    <div class = top>
+        <div class="header">
+            <div class="header-title">
+                Available Budget in <span class = budget-month> month year</span>:
+            </div>
+            <div class="budget-value">+2000</div>
+
+            
+            <div class="budget-income total-ie-box">
+                <div class="budget-income-text float-left">Income</div>
+                <div class="budget-income-value float-right">+5000</div>
+                <div class="clearfix"></div>
+            </div>
+
+            <div class="budget-expense total-ie-box">
+                <div class="budget-expense-text float-left">Expense</div>
+                <div class="budget-expense-percentage float-right">60%</div>
+                <div class="budget-expense-value float-right">-3000</div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="add">
+            <div class="add-container">
+                <select>
+                    <option value="income">+</option>
+                    <option value="expense">-</option>
+                </select>
+                <input type="text" size="40px" placeholder="Description">
+                <input type="number" placeholder="Value">
+                <span class="far fa-check-circle submit-btn"></span>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <div class="income">
+                         <h2>Income</h2>
+                        <div class="income-list"></div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="expense">
+                        <h2>expense</h2>
+                            <div class="expense-list"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>

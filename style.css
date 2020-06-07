@@ -1,0 +1,124 @@
+/**************************general********************************/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5rem;
+    position: relative;
+    height: 100vh; 
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.clearfix {
+    clear: both;
+}
+
+/***************************top******************************/
+
+.top {
+    background-image: url(./img/back.png);
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    padding: 20px;
+}
+
+.title {
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    
+}
+
+.header-title {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 15px;
+    font-weight: bolder;
+
+}
+
+.budget-value {
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    font-weight: 500;
+
+}
+
+/*****************************ie-box******************************/
+
+.total-ie-box {
+    padding: 10px;
+}
+
+.budget-income {
+    background:dodgerblue ;
+    text-align: center;
+    margin: 10px 500px ;
+}
+
+.budget-expense {
+    background:palevioletred ;
+    text-align: center;
+    margin: 10px 500px 0px 500px;
+}
+
+/**************************form********************************/
+
+select {
+    padding: 10px;
+}
+input {
+    padding: 10px;
+}
+button {
+    padding: 10px;
+}
+
+.submit-btn {
+    font-size: 30px;
+}
+
+
+.section {
+    background-color: whitesmoke;
+    padding: 20px;
+    display: block;
+}
+
+.add-container {
+    padding: 10px;
+    text-align: center;
+}
+
+/************************footer*****************************/
+
+.income {
+    color: dodgerblue;
+    float: left;
+    padding-left: 200px;
+}
+
+.expense {
+    color: palevioletred;
+    float: right;
+    padding-right: 200px;
+}
